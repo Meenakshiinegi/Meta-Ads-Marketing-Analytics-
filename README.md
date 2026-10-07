@@ -1,8 +1,8 @@
 # Meta Ads Campaign Performance & Marketing Analytics
 
-An end-to-end marketing analytics project focused on cleaning, analyzing, and evaluating Meta Ads campaign performance using **Excel and Python**.
+An end-to-end marketing analytics project focused on cleaning, analyzing, and evaluating Meta Ads campaign performance using **Microsoft Excel and Python**.
 
-The project demonstrates how raw advertising data can be transformed into meaningful KPIs, performance benchmarks, and actionable campaign optimization insights.
+The project demonstrates how raw advertising data can be transformed into meaningful KPIs, performance benchmarks, exploratory analysis, and actionable marketing insights.
 
 ---
 
@@ -16,16 +16,19 @@ This project analyzes Meta Ads campaign data at multiple levels:
 - Individual Ad
 - Date / Time
 
-The raw dataset contains campaign performance metrics along with semi-structured targeting information.
+The dataset contains campaign performance metrics along with semi-structured targeting information.
 
-The main objective was to:
+The main objectives of this project were to:
 
-1. Clean and structure the raw advertising data
+1. Clean and structure raw advertising data
 2. Handle semi-structured JSON targeting fields
-3. Create meaningful marketing KPIs
-4. Analyze campaign and ad performance
-5. Identify high-performing and underperforming segments
-6. Generate data-driven optimization recommendations
+3. Standardize and validate the dataset
+4. Create meaningful marketing KPIs
+5. Perform Excel-based Pivot analysis
+6. Perform Exploratory Data Analysis using Python
+7. Compare campaign, platform, ad set, and ad performance
+8. Identify high-performing and underperforming segments
+9. Generate data-driven optimization recommendations
 
 ---
 
@@ -45,38 +48,47 @@ The main objective was to:
 
 # 🧹 Phase 1 — Data Cleaning & Preparation
 
-The dataset required extensive preprocessing before analysis.
+The dataset required preprocessing before performing analytical operations.
 
 ### JSON Data Handling
 
-- Extracted relevant targeting attributes from nested JSON data
-- Processed fields such as:
-  - Age range
-  - Interests
-  - Behaviors
-  - Geographic targeting
-- Removed unnecessary raw JSON columns after extracting useful information
+The raw dataset contained semi-structured targeting information in JSON format.
+
+Relevant attributes were extracted and structured for analysis, including:
+
+- Age range
+- Interests
+- Behaviors
+- Geographic targeting
+
+Unnecessary raw JSON columns were removed after extracting the required information.
 
 ### Data Standardization
 
-- Standardized date and numeric fields
-- Cleaned missing and inconsistent values
-- Verified Ad ID uniqueness
-- Converted columns into appropriate analytical data types
+The dataset was standardized by:
+
+- Converting dates into appropriate formats
+- Converting numerical fields into suitable data types
+- Cleaning missing and inconsistent values
+- Checking Ad ID uniqueness
+- Standardizing text-based fields
+- Preparing the dataset for Python analysis
 
 ### Column Optimization
 
-Removed unnecessary or highly incomplete fields, including:
+Unnecessary or highly incomplete fields were removed to improve analytical efficiency.
+
+This included:
 
 - Columns with excessive missing values
 - Redundant system-generated metrics
 - Hourly breakdown columns
 - Derivable weekday fields
-- Other unnecessary calculated fields
+- Unnecessary calculated fields
 
 ### Feature Engineering
 
-Created analytical metrics such as:
+Additional analytical metrics were created, including:
 
 - CTR
 - CPC
@@ -86,47 +98,54 @@ Created analytical metrics such as:
 - Engagement Rate
 - ROI
 - Monthly performance indicators
+- Date-based analytical fields
 
 ---
 
 # 📊 Phase 2 — Excel Pivot Analysis
 
-Pivot-based analysis was performed to evaluate performance across different dimensions.
+Microsoft Excel was used for structured analysis and Pivot-based reporting.
 
-### Platform Analysis
+### Platform-Level Analysis
 
-Analyzed:
+Performance was compared across advertising platforms using:
 
 - Total Spend
-- Total Conversions
+- Total Clicks
+- Total Conversions / Payments
 - Average CPC
 - Conversion Rate
+- Overall performance
 
-### Campaign Analysis
+### Campaign-Level Analysis
 
-Compared campaigns using:
+Campaigns were evaluated using:
 
-- Spend
+- Total Spend
 - Payments
 - CPC
 - CPLPV
 - CTR
+- Conversion Rate
 - ROI
 
-### Daily Performance
+### Daily Performance Analysis
 
-Analyzed:
+Daily trends were analyzed using:
 
 - Daily Spend
-- Payments
-- CPC
+- Daily Clicks
+- Daily Payments
+- Daily CPC
 - Conversion trends
+
+Pivot Tables were used to summarize and compare performance across different dimensions.
 
 ---
 
 # 🐍 Phase 3 — Python Exploratory Data Analysis
 
-Python was used to validate and explore the cleaned dataset.
+Python was used to validate the cleaned dataset and perform deeper exploratory analysis.
 
 ### Analysis Performed
 
@@ -139,6 +158,7 @@ Python was used to validate and explore the cleaned dataset.
 - Correlation analysis
 - Outlier detection
 - Performance comparison
+- Cost-efficiency analysis
 
 ### Python Libraries
 
