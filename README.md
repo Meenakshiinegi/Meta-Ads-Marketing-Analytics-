@@ -18,7 +18,7 @@ This project analyzes Meta Ads campaign data at multiple levels:
 
 The dataset contains campaign performance metrics along with semi-structured targeting information.
 
-The main objectives of this project were to:
+### Objectives
 
 1. Clean and structure raw advertising data
 2. Handle semi-structured JSON targeting fields
@@ -167,6 +167,10 @@ Pandas
 NumPy
 Matplotlib
 Seaborn
+```
+
+---
+
 # 📈 Key Performance Analysis
 
 The cleaned dataset was analyzed using important advertising KPIs to understand campaign efficiency and identify areas for improvement.
@@ -201,17 +205,88 @@ This analysis helped identify high-performing campaigns as well as campaigns req
 ### Performance Categories
 
 #### 🟢 High Performing
+
 - Strong CTR
 - Lower CPC
 - Higher conversion rate
 - Consistent payment performance
 
 #### 🟡 Needs Optimization
+
 - Moderate engagement
 - Higher acquisition cost
 - Inconsistent conversion performance
 
 #### 🔴 Low Performing
+
 - Low conversion activity
 - Higher cost
 - Significant spend with limited results
+
+---
+
+# 📱 Platform-Level Analysis
+
+Performance was compared across different advertising platforms using:
+
+- Total Spend
+- Click volume
+- Conversion / Payment volume
+- Average CPC
+- Conversion Rate
+- Overall efficiency
+
+This analysis helps identify stronger-performing platforms and supports better budget allocation decisions.
+
+---
+
+# 📅 Time-Based Analysis
+
+Date-based analysis was performed to understand how advertising performance changed over time.
+
+### Daily Analysis
+
+The following metrics were evaluated:
+
+- Daily Spend
+- Daily Clicks
+- Daily Impressions
+- Daily Payments
+- Daily CPC
+- Daily Conversion Rate
+
+### Monthly Analysis
+
+Monthly performance was analyzed to identify:
+
+- Spending trends
+- Conversion trends
+- Changes in CPC
+- Changes in conversion efficiency
+
+---
+
+# 🔍 Data Quality & Validation
+
+Data quality checks were performed before conducting the final analysis.
+
+The validation process included:
+
+- Checking missing values
+- Identifying duplicate records
+- Checking unique Ad IDs
+- Validating numerical columns
+- Checking inconsistent data types
+- Identifying potential outliers
+- Recalculating important KPIs
+
+This helped improve the reliability and consistency of the analysis.
+
+---
+
+# 📐 KPI Formulas
+
+### CTR
+```text
+CTR (%) = (Clicks / Impressions) × 100
+```
