@@ -167,3 +167,51 @@ Pandas
 NumPy
 Matplotlib
 Seaborn
+# 📈 Key Performance Analysis
+
+The cleaned dataset was analyzed using important advertising KPIs to understand campaign efficiency and identify areas for improvement.
+
+### Key Metrics Analyzed
+
+- **CTR (Click-Through Rate)** – Measures how effectively ads generate clicks.
+- **CPC (Cost Per Click)** – Measures the average cost of acquiring a click.
+- **Conversion Rate** – Measures the percentage of clicks that result in conversions.
+- **CPA (Cost Per Acquisition)** – Measures the average cost of acquiring a conversion.
+- **CPLPV** – Measures the cost associated with generating a landing page view.
+- **Engagement Rate** – Measures audience interaction with advertisements.
+- **ROI** – Evaluates return generated relative to advertising spend.
+
+---
+
+# 🎯 Campaign Performance Analysis
+
+Campaigns were compared based on:
+
+- Total Spend
+- Clicks
+- Impressions
+- Payments / Conversions
+- CTR
+- CPC
+- Conversion Rate
+- Cost efficiency
+
+This analysis helped identify high-performing campaigns as well as campaigns requiring further optimization.
+
+### Performance Categories
+
+#### 🟢 High Performing
+- Strong CTR
+- Lower CPC
+- Higher conversion rate
+- Consistent payment performance
+
+#### 🟡 Needs Optimization
+- Moderate engagement
+- Higher acquisition cost
+- Inconsistent conversion performance
+
+#### 🔴 Low Performing
+- Low conversion activity
+- Higher cost
+- Significant spend with limited results
